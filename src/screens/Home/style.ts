@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
   secondView: {
     flex: 5,
     width: '100%',
-    backgroundColor: '#262626',
+    backgroundColor: '#1A1A1A',
     alignItems: 'center',
   },
   testText: {

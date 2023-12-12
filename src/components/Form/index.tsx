@@ -2,6 +2,7 @@ import { View, TextInput, Text, TouchableHighlight, } from 'react-native'
 import { Dispatch, SetStateAction, useState } from 'react'
 import { styles } from './styles'
 import { TaskProps } from '../../screens/Home'
+import uuid from 'react-native-uuid'
 
 
 interface FormProps {
@@ -17,15 +18,15 @@ export function Form({ setTasks }: FormProps) {
 
   function handleAddTask() {
     const task = {
-      id: Math.random(),
+      id: uuid.v4(),
       completed: false,
       description: newTask
     }
     setTasks((prev) => [...prev, task])
     setNewTask('')
 
-    console.log("adicionando mais uma tarefa")
-    console.log(task)
+    // console.log("adicionando mais uma tarefa")
+    // console.log(task)
   }
 
 

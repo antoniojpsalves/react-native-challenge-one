@@ -4,10 +4,11 @@ import { styles } from "./style"
 import { useEffect, useState } from 'react'
 import { Form } from "../../components/Form"
 import { Counters } from "../../components/Counters"
+import { List } from "../../components/List"
 
 
 export interface TaskProps {
-  id: number
+  id: string | number[]
   completed: boolean
   description: string
 }
@@ -37,6 +38,7 @@ export function Home() {
       <View style={styles.secondView}>
         <Form setTasks={setTasks} />
         <Counters createdNum={createdTasksNumber} completedNum={completedTasksNumber} />
+        <List data={tasks} handleUpdateTask={setTasks} />
       </View>
     </View>
   )
