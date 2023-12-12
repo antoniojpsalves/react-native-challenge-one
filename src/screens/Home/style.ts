@@ -9,7 +9,8 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   firtView: {
-    flex: 1,
+    // flex: 1,
+    height: 150,
     paddingTop: 40,
     alignItems: 'center',
     justifyContent: 'center',

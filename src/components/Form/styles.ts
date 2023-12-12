@@ -24,13 +24,13 @@ export const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#fff',
-    fontSize: 23,
+    fontSize: 22,
     textAlign: 'center',
-    marginTop: -5,
+    marginTop: -6,
   },
   borderButton: {
-    width: 25,
-    height: 25,
+    width: 22,
+    height: 22,
     borderRadius: 50,
     borderWidth: 2,
     borderColor: '#fff',

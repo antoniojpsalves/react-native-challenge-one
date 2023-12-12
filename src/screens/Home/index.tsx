@@ -1,11 +1,12 @@
 import { View, Text, Image } from "react-native"
 import { styles } from "./style"
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Form } from "../../components/Form"
+import { Counters } from "../../components/Counters"
 
 
-interface TaskProps {
+export interface TaskProps {
   id: number
   completed: boolean
   description: string
@@ -15,6 +16,18 @@ export function Home() {
 
   const [tasks, setTasks] = useState<TaskProps[]>([])
 
+  const [createdTasksNumber, setCreatedTasksNumber] = useState(tasks.length)
+  const [completedTasksNumber, setCompletedTasksNumber] = useState(0)
+
+  useEffect(() => {
+
+    setCreatedTasksNumber(tasks.length)
+
+    let finished = tasks.filter(task => task.completed === true)
+    setCompletedTasksNumber(finished.length)
+
+  }, [tasks]);
+
 
   return (
     <View style={styles.container}>
@@ -22,7 +35,8 @@ export function Home() {
         <Image style={styles.logo} source={require("../../assets/images/logo.png")} />
       </View>
       <View style={styles.secondView}>
-        <Form />
+        <Form setTasks={setTasks} />
+        <Counters createdNum={createdTasksNumber} completedNum={completedTasksNumber} />
       </View>
     </View>
   )
