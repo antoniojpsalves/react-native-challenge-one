@@ -53,13 +53,13 @@ Siga as instruções abaixo para executar o projeto localmente:
    ```bash
    git clone https://github.com/antoniojpsalves/react-native-challenge-one.git```
 2. Atualizar as dependências
-```bash
-  npm install
-```
+  ```bash
+    npm install
+  ```
 3. Executar o projeto
-```bash
-  npx expo start
-```
+  ```bash
+    npx expo start
+  ```
 4. Escanear o QR code com ExpoGO (Applicativo disponível na sua loja padrão de apps)
 Isso é tudo! Seu aplicativo deve estar rodando localmente.
   
