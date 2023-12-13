@@ -51,7 +51,7 @@ Siga as instruções abaixo para executar o projeto localmente:
 
 1. Clone este repositório
    ```bash
-   git clone https://github.com/antoniojpsalves/react-native-challenge-one.git```
+   git clone https://github.com/antoniojpsalves/react-native-challenge-one.git
 2. Atualizar as dependências
   ```bash
     npm install
