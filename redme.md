@@ -16,7 +16,10 @@
 
 <p align="justify">Bem-vindo ao meu projeto de resposta ao primeiro desafio da Trila do Ignite para React Native da Rocketseat! </p>
 <p align="justify">Este aplicativo é uma To-Do List construída seguindo o protótipo fornecido no Figma.</p>
-<p>Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1248756149903321443/todo-list-desafio-react-copy). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.</p>
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/04tjAjbAyE0sKKnjnwdzOJ/ToDo-List-%E2%80%A2-Desafio-React-Native-Copy?fuid=902949651461977947).
+
+É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 <div align="center"> <img src="./src/assets/demo/todo.gif" width="300" /> </div>
 
@@ -54,13 +57,13 @@ Siga as instruções abaixo para executar o projeto localmente:
    git clone https://github.com/antoniojpsalves/react-native-challenge-one.git
    ```
 2. Atualizar as dependências
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
 3. Executar o projeto
-  ```bash
-  npx expo start
-  ```
+   ```bash
+   npx expo start
+   ```
 4. Escanear o QR code com ExpoGO (Applicativo disponível na sua loja padrão de apps)
 <p align="justify">Isso é tudo! Seu aplicativo deve estar rodando localmente.</p>
   
