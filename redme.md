@@ -18,7 +18,7 @@
 <p align="justify">Este aplicativo é uma To-Do List construída seguindo o protótipo fornecido no Figma.</p>
 
 
-| <img src="./src/assets/demo/todo.gif" width="610" /> |
+<div align="center"> <img src="./src/assets/demo/todo.gif" width="300" /> </div>
 
 ## 💻 Projeto
 
