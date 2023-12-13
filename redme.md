@@ -16,7 +16,7 @@
 
 <p align="justify">Bem-vindo ao meu projeto de resposta ao primeiro desafio da Trila do Ignite para React Native da Rocketseat! </p>
 <p align="justify">Este aplicativo é uma To-Do List construída seguindo o protótipo fornecido no Figma.</p>
-
+<p>Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1248756149903321443/todo-list-desafio-react-copy). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.</p>
 
 <div align="center"> <img src="./src/assets/demo/todo.gif" width="300" /> </div>
 
